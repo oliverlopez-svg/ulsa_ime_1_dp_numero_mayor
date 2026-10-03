@@ -7,4 +7,30 @@
 ``` text
 1. MOSTRAR "Bienvenido a mi programa"
 
+2. MOSTRAR "porfavor, ingrese 3 numeros"
+Valor A
+MIENTRAS: valor = Numero;
+Sino [MOSTRAR: "el valor debe ser numerico"]
+Valor B
+MIENTRAS: valor = Numero;
+Sino [MOSTRAR: "el valor debe ser numerico"]
+Valor C
+MIENTRAS: valor = Numero;
+Sino [MOSTRAR: "el valor debe ser numerico"]
+
+3 Comparar los numeros
+MIENTRAS a>b; y a>c
+Entonces 
+mayor a
+MIENTRAS
+b>c y b>a
+mayor b
+MIENTRAS
+c>a y c>b
+mayor c
+
+4 Mostrar el numero o los numeros mas grandes
+
+5 Fin del programa
+
 ```

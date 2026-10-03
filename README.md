@@ -4,53 +4,54 @@
 
 ## 1. Descripción del problema (Fase 1)
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
+El programa te pide 3 numeros y se comparan para especificar el mayor
 
 _____
 
 ## 2. Entradas y salidas (Fase 1)
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
-
+entradas
 **Entradas:**
-1. _____
-2. _____
-3. _____
+1. _____numero a
+2. _____numero b
+3. _____numero c
 
 **Salida:**
-1. _____
+1. _____ el mayor de los 3, o los mayores
 
 **¿Muestro el valor del mayor o cuál de los tres fue (primero, segundo o tercero)? ¿Por qué?**
-_____
+_____para sacar el mayor
 
 **¿Qué función de `utilerias.h` uso para leer los números? ¿Por qué esa y no la otra?**
-_____
+_____leer entero
 
 ## 3. Restricciones e invariante (Fases 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- _____valor numerico
+- _____sin simbolos
 
 **¿Hace falta validar el rango de los números (por ejemplo, rechazar el 0 o los negativos)? ¿Por qué?**
-_____
+_____no, son numeros
 
 **¿Qué hace mi programa cuando dos números son iguales y son los mayores? ¿Y cuando los tres son iguales?**
-_____
+_____ da los numeros necesarios como mayores 
 
 **¿Quién detecta cada error?** (¿qué revisa la función de `utilerias.h` y qué reviso yo?)
 _____
 
 **Invariante** (justo antes de mostrar el resultado, ¿qué es seguro sobre el valor que voy a mostrar?):
-_____
+_____numerico, el mayor de los 3
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Número 1 | Número 2 | Número 3 | Mayor calculado a mano |
 |---|---|---|---|---|
-| 1 (el mayor en primera posición) | _____ | _____ | _____ | _____ |
-| 2 (el mayor en segunda posición) | _____ | _____ | _____ | _____ |
-| 3 (el mayor en tercera posición) | _____ | _____ | _____ | _____ |
-| 4 (con un empate) | _____ | _____ | _____ | _____ |
-| 5 (con negativos) | _____ | _____ | _____ | _____ |
+| 1 (el mayor en primera posición) | __3___ | _____2 | ___1__ | _____ |3
+| 2 (el mayor en segunda posición) | ___33__ | ____320_ | 211_____ | _____ |320
+| 3 (el mayor en tercera posición) | ___2__ | _2____ | ___4__ | _____ |4
+| 4 (con un empate) | ___1__ | __1___ | ____1_ | _1____ |
+| 5 (con negativos) | __-2___ | _-9____ | ___-188888__ | _____ |-2
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las preguntas. -->
@@ -80,7 +81,7 @@ _____
 
 | Paso de la receta | Instrucción de C++ que lo implementa |
 |---|---|
-| 1. Mensaje de bienvenida | _____ |
+| 1. Mensaje de bienvenida | _____ |bienvenido al programa
 | _____ | _____ |
 | _____ | _____ |
 | _____ | _____ |
@@ -91,7 +92,7 @@ _____
 
 ## 9. Experimentos (Fase 3)
 
-**Experimento A: ¿qué te dijo el compilador con `if (a > b > c)`? ¿Qué mostró el programa con 3, 2 y 1? ¿Por qué?**
+**Experimento A: ¿qué te dijo el compilador con `if (a > b > c)`? ¿Qué mostró el programa con 3, 2 y 1? ¿Por qué?** el mayor
 _____
 
 **Experimento B: al cambiar `>=` por `>` (o al revés), ¿qué mostró el programa con 7, 7, 3 y con 5, 5, 5? ¿Por qué?**
@@ -122,7 +123,7 @@ _____
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
+| 1 | _____ | _____ | _____ | escribir codigo
 | 2 | _____ | _____ | _____ |
 
 **Reto elegido (opcional):** _____
@@ -136,22 +137,22 @@ _____
 ## 13. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+_____sintaxis
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+_____nada
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+_____nada
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+_____ninguna
 
 **¿Qué fue más fácil para mí: la Práctica 3 (receta propia con un paso de ejemplo), la 4 (receta ajena) o esta (todo desde cero)? ¿Por qué?**
-_____
+_____con la propia
 
 **¿Pensé en los empates antes de programar o los descubrí al probar?**
-_____
+_____antes
 
 ## 14. Lista de verificación antes de entregar (Fase 5)
 
